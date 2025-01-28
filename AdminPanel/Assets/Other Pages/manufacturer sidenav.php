@@ -13,24 +13,25 @@ if(isset($_SESSION['username']))
   background: linear-gradient(to bottom, #74ebd5, #acb6e5);">
         </button>
       </div>
-      <div class="img bg-wrap text-center py-4" style="background-image:url(images/Others/adminback.jpg);">
+      <div class="img bg-wrap text-center py-4" style="background-image:url(images/Others/back.jpg);">
         <div class="user-logo">
           <div class="img" style="background-image: url(images/Others/logo.jpg);"></div>
-          <h3 style="font-weight:700;letter-spacing:1px;font-size:22px;font-family:Sans-serif	; text-shadow: 4px 2px black;">Admin</h3>
+          <h3 style="font-weight:700;letter-spacing:1px;font-size:22px;font-family:Sans-serif	; text-shadow: 4px 2px black;">Manufacturer</h3>
         </div>
       </div>
       <ul class="list-unstyled components mb-5">
-      <li class="active">
-          <a href="Admin add categories.php"><span class="fa fa-home mr-3"></span> Add categories</a>
-        </li>
         <li class="active">
-          <a href="register.php"><span class="fa fa-home mr-3"></span>Register</a>
+          <a href="manufacturer home.php"><span class="fa fa-home mr-3"></span> Home</a>
         </li>
-      
-        <li class="active">
-          <a href="Admin home.php"><span class="fa fa-home mr-3"></span> Products Status</a>
+        <li>
+          <a href="manufacturer add product.php"><span class="fa fa-plus mr-3"></span> Add Products</a>
         </li>
-      
+        <li>
+          <a href="manufacturer test.php"><span class="fa fa-angle-double-right mr-3"></span> Request Testing</a>
+        </li>
+        <li>
+          <a href="manufacturer revised.php"><span class="fa fa-undo mr-3"></span> Revised Products</a>
+        </li>
         <li>
         <a href='logout.php'><span class='fa fa-sign-out mr-3'></span> Log Out</a>
         </li>
