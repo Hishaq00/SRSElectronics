@@ -1,0 +1,17 @@
+For Admin
+Role : Admin
+Password : 1234
+
+For Manufacturer
+Role : Manufacturer
+Password : 123
+
+For Testers
+Role : Tester 1
+Passwoed: 123
+
+Role : Tester 2
+Passwoed: 1234
+
+Role : Tester 3
+Passwoed: 1235
